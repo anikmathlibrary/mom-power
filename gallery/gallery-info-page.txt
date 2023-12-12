@@ -1,0 +1,1 @@
+This folder named gallery, has been created for the storage of images used in this website.
