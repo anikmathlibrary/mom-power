@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to our E-Learning Platform!</h2>
+        <p>Explore a variety of courses and enhance your knowledge from the comfort of your home.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Featured Courses</h2>
+        <ul>
+            <li>Introduction to Programming</li>
+            <li>Data Science Essentials</li>
+            <li>Web Development Fundamentals</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Register for a Course</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="course">Select a Course:</label>
+            <select id="course" name="course">
+                <option value="programming">Introduction to Programming</option>
+                <option value="datascience">Data Science Essentials</option>
+                <option value="webdev">Web Development Fundamentals</option>
+            </select><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out:</p>
+        <p>Email: info@elearningplatform.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 E-Learning Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
