@@ -102,9 +102,6 @@ header img {
 .chapterAction div {
     color: #00FF16;
 }
-footer {
-    text-align: center;
-}
-a {
-    text-decoration: none;
-}
+<footer>
+        <div>&copy; 2023 <a href="#" rel="nofollow" target="_blank">Mom Power</a> | All Rights reserved</div>
+    </footer>
