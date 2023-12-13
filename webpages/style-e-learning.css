@@ -201,12 +201,14 @@ header::after {
 .animatingImageCopy1 {
     overflow: hidden;
     animation: rotate 6s linear infinite;
-    font-size: 15vw;
-    color: red;
+    color: #F6416C;
 }
 .motherhoodChapterCopy1 {
     width: 80%;
     margin: auto; /*Adjust width and alignment*/
+}
+.material-symbols-outlined {
+    font-size: 25vw;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
