@@ -207,8 +207,9 @@ header::after {
     width: 80%;
     margin: auto; /*Adjust width and alignment*/
 }
-.material-symbols-outlined {
-    font-size: 26vw;
+.larger-icon {
+    font-size: 15vw;
+    color: white;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
