@@ -102,12 +102,15 @@ header img {
 .chapterAction div {
     color: #00FF16;
 }
+footer {
+    background: none;
+}
 footer div {
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 footer a {
     text-decoration: none;
-    background: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: white;
 }
