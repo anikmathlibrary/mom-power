@@ -202,9 +202,6 @@ header::after {
     overflow: hidden;
     animation: rotate 6s linear infinite;
 }
-.animatingImageCopy1 img {
-    width: 15vw;
-}
 .motherhoodChapterCopy1 {
     width: 80%;
     margin: auto; /*Adjust width and alignment*/
@@ -215,7 +212,7 @@ header::after {
   'wght' 700,
   'GRAD' 0,
   'opsz' 48;
-    width: 15vw;
+    
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
