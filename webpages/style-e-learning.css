@@ -208,7 +208,7 @@ header::after {
     margin: auto; /*Adjust width and alignment*/
 }
 .material-symbols-outlined {
-    font-size: 25vw;
+    font-size: 26vw;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
