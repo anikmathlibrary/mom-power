@@ -209,7 +209,6 @@ header::after {
     width: 80%;
     margin: auto; /*Adjust width and alignment*/
 }
-<style>
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 1,
@@ -218,7 +217,6 @@ header::after {
   'opsz' 48;
     width: 15vw;
 }
-</style>
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     25% {transform: rotate(-25deg);}
