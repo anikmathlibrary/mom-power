@@ -318,3 +318,15 @@ header::after {
 /*Ending of Style Header*/
 
 /*-----------------------------------------------*/
+
+
+
+footer div {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    background: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
