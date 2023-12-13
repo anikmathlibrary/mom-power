@@ -7,9 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-
-    
-    background-color: black;
+    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
     color: #fff;
     box-sizing: border-box;
     transition: all 0.3s ease;
