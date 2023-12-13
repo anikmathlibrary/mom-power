@@ -653,3 +653,14 @@ form input[type="submit"] {
     margin: auto;
     font-size: large;
 }
+
+
+footer div {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    background: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
