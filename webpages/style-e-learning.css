@@ -657,6 +657,8 @@ form input[type="submit"] {
 
 footer {
     background: none;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 footer div {
     text-align: center;
