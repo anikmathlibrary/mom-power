@@ -88,7 +88,6 @@ header img {
 .animatingImage img {
     width: 15vw;
 }
-/*-----------------------------------------------*/
 .chapterAction a {
     
     display: flex;
@@ -102,6 +101,32 @@ header img {
 .chapterAction div {
     color: #00FF16;
 }
+/*Ending of Style Motherhood*/
+
+/*-----------------------------------------------*/
+
+/*Starting of Style Top Nav Toggle*/
+#toTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    transform: rotate(-90deg);
+    margin: auto;
+    font-size: large;
+}
+/*Ending of Style Top Nav Togle*/
+
+/*-----------------------------------------------*/
+
+/*Starting of Style Footer*/
 footer {
     background: none;
 }
@@ -114,3 +139,4 @@ footer a {
     text-decoration: none;
     color: white;
 }
+/*Ending of Style Footer*/
