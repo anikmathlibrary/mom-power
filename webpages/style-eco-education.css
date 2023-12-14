@@ -29,7 +29,7 @@ header {
     height: 100vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(135deg, #79ff89 10%, #10ff28 100%);
+    background-image: linear-gradient(135deg, #ffffff 10%, #10ff28 100%);
 }
 header::before,
 header::after {
@@ -43,12 +43,12 @@ header::after {
 header::before {
     clip-path: circle(30% at left 20%);
     opacity: 0.4;
-    background-image: linear-gradient(135deg, #10ff28 10%, #79ff89 100%);
+    background-image: linear-gradient(135deg, #10ff28 10%, #ffffff 100%);
 }
 header::after {
     opacity: 0.4;
     clip-path: circle(25% at right 80%);
-    background-image: linear-gradient(135deg, #10ff28 10%, #79ff89 100%);
+    background-image: linear-gradient(135deg, #10ff28 10%, #ffffff 100%);
 }
 .header {
     height: 85vh;
@@ -107,7 +107,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #79ff89 10%, #10ff28 100%);
+    background-image: linear-gradient(135deg, #ffffff 10%, #10ff28 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
