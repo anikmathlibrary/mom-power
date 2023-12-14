@@ -1,29 +1,4 @@
-var showWindowLinks = document.querySelectorAll('.show-window');
-var floatingWindows = document.querySelectorAll('.floating-window');
-showWindowLinks.forEach(function(link) {
-link.addEventListener('click', function(e) {
-e.stopPropagation(); // Prevents the click event from propagating to the document
-var targetId = this.getAttribute('data-target');
-var targetWindow = document.getElementById(targetId);
-if (targetWindow.style.display === 'none' || targetWindow.style.display === '') {
-    floatingWindows.forEach(function(window) {
-        window.style.display = 'none';
-        });
-        targetWindow.style.display = 'block';
-        } else {
-        targetWindow.style.display = 'none';
-        }
-        });
-        });
-        document.addEventListener('click', function() {
-        floatingWindows.forEach(function(window) {
-        window.style.display = 'none';
-        });
-        });
-
-//end
-
-//for register form
+//Starting of Action Register Form
 const wrapper = document.querySelector(".r-wrapper"),
                     signupHeader = document.querySelector(".signup .form-header"),
                     loginHeader = document.querySelector(".login .form-header");
@@ -33,15 +8,17 @@ const wrapper = document.querySelector(".r-wrapper"),
                     signupHeader.addEventListener("click", () => {
                     wrapper.classList.remove("active");
 });
+//Ending of Action Register Form
 
 
-
-
+//Starting of Action Top Buttons
 function redirectToRegister() {
     window.location.href='#register';
 }
+//Endting of Action Top Buttons
 
 
+//Starting of Action Top Toggle
 window.onscroll = function() {
     toggleToTopButton();
 };
@@ -58,3 +35,4 @@ function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+//Ending of Action Top Toggle
