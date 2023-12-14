@@ -203,14 +203,16 @@ header::after {
     animation: rotate 6s linear infinite;
     color: #F6416C;
 }
+.animatingImageCopy1 i {
+    font-size: 120px;
+    font-weight: bold;
+}
 .motherhoodChapterCopy1 {
     width: 80%;
     margin: auto; /*Adjust width and alignment*/
 }
 .larger-icon {
-    font-size: 120px;
     color: white;
-    font-weight: 700;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
