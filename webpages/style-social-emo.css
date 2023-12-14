@@ -83,14 +83,14 @@ header::after {
     margin: 0 6px;
 }
 .navbar .menu a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: normal;
     font-weight: 500;
     transition: all 0.3s ease;
 }
 .navbar .menu a:hover {
-    color: #f2f2f2;
+    color: #000;
 }
 .navbar .buttons input {
     outline: none;
@@ -137,12 +137,12 @@ header::after {
     top: 50%;
     transform: translateY(-50%);
     left: -58px;
-    background: #000;
+    background: #fff;
 }
 .play-button i {
     height: 40px;
     width: 40px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     line-height: 38px;
     text-align: center;
     margin-left: 10px;
@@ -187,7 +187,7 @@ header::after {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #10ff28;
+    background-color: #0D0DFF;
     color: #fff;
     padding: 5px;
     border: none;
