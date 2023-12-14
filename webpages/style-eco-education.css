@@ -107,7 +107,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #white 10%, #10ff28 100%);
+    background-image: linear-gradient(135deg, #10ff28 10%, #white 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
@@ -252,9 +252,10 @@ header::after {
     4px rgba(0,0,0,0.05);
     }
     .center-line .scroll-icon{
+    color: black;
     bottom: 0px;
     left: 50%;
-    font-size: 25px;
+    font-size: large;
     transform: translateX(-50%);
     }
     .row-1 section .icon{
@@ -321,23 +322,31 @@ header::after {
     }
     }
 /*Ending of Style Wrapper*/
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-    
-
-
-
-    
-
-/*Ending of Style Header*/
 
 /*-----------------------------------------------*/
 
+/*Starting of Style Top Nav Toggle*/
+#toTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F6416C;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    transform: rotate(-90deg);
+    margin: auto;
+    font-size: large;
+}
+/*Ending of Style Top Nav Togle*/
 
+/*-----------------------------------------------*/
 
+/*Starting of Style Footer*/
 footer {
     background: none;
 }
@@ -350,3 +359,8 @@ footer a {
     text-decoration: none;
     color: black;
 }
+/*Ending of Style Footer*/
+
+/*-----------------------------------------------*/
+
+
