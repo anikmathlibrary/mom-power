@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #7AFFFE 10%, #0D0DFF 100%);
     color: #fff;
     box-sizing: border-box;
     transition: all 0.3s ease;
@@ -103,7 +103,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #7AFFFE 10%, #0D0DFF 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
