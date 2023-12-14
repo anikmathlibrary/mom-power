@@ -107,7 +107,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #10ff28 10%, #white 100%);
+    background-image: linear-gradient(135deg, #10ff28 10%, #79ff89 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
@@ -331,7 +331,7 @@ header::after {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #F6416C;
+    background-color: #10ff28;
     color: #fff;
     padding: 5px;
     border: none;
