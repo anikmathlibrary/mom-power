@@ -74,7 +74,7 @@ header::after {
 }
 .navbar .logo a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: x-large;
     color: #000;
     font-weight: 500;
 }
@@ -208,7 +208,7 @@ header::after {
     margin: auto; /*Adjust width and alignment*/
 }
 .larger-icon {
-    font-size: 15vw;
+    font-size: 20%;
     color: white;
 }
 @keyframes rotate {
@@ -474,36 +474,15 @@ table .ribbon::before,
 
 /*-----------------------------------------------*/
 
-.floating-window {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background-color: #fff;
-    color: black;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+/*Starting of Style Register Form*/
+#register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 .r-wrapper {
     position: relative;
     max-width: 470px;
@@ -605,18 +584,8 @@ form input[type="submit"] {
     color: #fff;
     border: none;
 }
-    
 
-#register {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
-    width: 100%;
-}
-
-
+/*Style of Registration Lookup Text*/
 .r-details {
     padding-left: 20px;
     text-align: justify;
@@ -635,9 +604,11 @@ form input[type="submit"] {
     justify-content: center;
     transform: rotate(90deg);
 }
+/*Ending of Style of Register Form*/
 
+/*-----------------------------------------------*/
 
-
+/*Starting of Style Top Nav Toggle*/
 #toTopButton {
     display: none;
     position: fixed;
@@ -654,8 +625,11 @@ form input[type="submit"] {
     margin: auto;
     font-size: large;
 }
+/*Ending of Style Top Nav Togle*/
 
+/*-----------------------------------------------*/
 
+/*Starting of Style Footer*/
 footer {
     background: none;
     padding-top: 3vw;
@@ -670,3 +644,6 @@ footer a {
     text-decoration: none;
     color: white;
 }
+/*Ending of Style Footer*/
+
+/*-----------------------------------------------*/
