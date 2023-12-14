@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #fff 10%, #000 100%);
     color: #fff;
     box-sizing: border-box;
     transition: all 0.3s ease;
@@ -24,7 +24,7 @@ header {
     height: 100vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #fff 10%, #000 100%);
 }
 header::before,
 header::after {
@@ -38,12 +38,12 @@ header::after {
 header::before {
     clip-path: circle(30% at left 20%);
     opacity: 0.4;
-    background-image: linear-gradient(135deg, #F6416C 10%, #ff9a9e 100%);
+    background-image: linear-gradient(135deg, #000 10%, #fff 100%);
 }
 header::after {
     opacity: 0.4;
     clip-path: circle(25% at right 80%);
-    background-image: linear-gradient(135deg, #F6416C 10%, #ff9a9e 100%);
+    background-image: linear-gradient(135deg, #000 10%, #fff 100%);
 }
 .header {
     height: 85vh;
@@ -102,7 +102,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #fff 10%, #000 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
