@@ -1,10 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+::selection {
+    color: #0D0DFF;
+    background: #f86d8d;
+}
+
+/*-----------------------------------------------*/
+
 /*Starting of Style Header*/
 header {
     color: #000;
     height: 100vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(135deg, #ff9a9e 10%, #F6416C 100%);
+    background-image: linear-gradient(135deg, #7AFFFE 10%, #0D0DFF 100%);
 }
 header::before,
 header::after {
@@ -18,12 +39,12 @@ header::after {
 header::before {
     clip-path: circle(30% at left 20%);
     opacity: 0.4;
-    background-image: linear-gradient(135deg, #F6416C 10%, #ff9a9e 100%);
+    background-image: linear-gradient(135deg, #0D0DFF 10%, #7AFFFE 100%);
 }
 header::after {
     opacity: 0.4;
     clip-path: circle(25% at right 80%);
-    background-image: linear-gradient(135deg, #F6416C 10%, #ff9a9e 100%);
+    background-image: linear-gradient(135deg, #0D0DFF 10%, #7AFFFE 100%);
 }
 .header {
     height: 85vh;
