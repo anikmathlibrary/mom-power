@@ -107,7 +107,7 @@ header::after {
     margin: 0 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: linear-gradient(135deg, #10ff28 10%, #79ff89 100%);
+    background-image: linear-gradient(135deg, #79ff89 10%, #10ff28 100%);
 }
 .navbar .buttons input:hover {
     transition: scale(0.97);
