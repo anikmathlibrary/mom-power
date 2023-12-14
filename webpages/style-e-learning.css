@@ -85,7 +85,7 @@ header::after {
 .navbar .menu a {
     color: #000;
     text-decoration: none;
-    font-size: 17px;
+    font-size: normal;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -208,8 +208,9 @@ header::after {
     margin: auto; /*Adjust width and alignment*/
 }
 .larger-icon {
-    font-size: 20%;
+    font-size: 120px;
     color: white;
+    font-weight: 700;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
