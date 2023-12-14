@@ -160,3 +160,40 @@ header::after {
 
 /*-----------------------------------------------*/
 
+/*Starting of Style Top Nav Toggle*/
+#toTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #10ff28;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    transform: rotate(-90deg);
+    margin: auto;
+    font-size: large;
+}
+/*Ending of Style Top Nav Togle*/
+
+/*-----------------------------------------------*/
+
+/*Starting of Style Footer*/
+footer {
+    background: none;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+footer div {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+/*Ending of Style Footer*/
