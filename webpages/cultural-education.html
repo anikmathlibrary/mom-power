@@ -7,34 +7,34 @@
     <link rel="stylesheet" type="text/css" href="style-cult.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <script src="script.js" defer></script>
-    <style>
-        nav {
-            display: flex;
-            justify-content: center;
-            background: radial-gradient(at 100% 0%, #8F00FF, black);
-            color: #00FF16;
-            padding: 10px;
-            border-radius: 10px;
-        }
-
-        nav a {
-            color: #00FF16;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Cultural Education</h1>
+        <header>
+        <div class="header">
+            <!--<h1>E-Learning</h1>-->
+            <nav class="navbar">
+                <div class="logo"><a href="../index.html" rel="nofollow" target="_blank">Mom Power</a></div>
+                <ul class="menu">
+                    <li><a href="../index.html" rel="nofollow" target="_blank">Home</a></li>
+                    <li><a href="e-learning.html" rel="nofollow" target="_blank">Learning</a></li>
+                    <li><a href="eco-education.html" rel="nofollow" target="_blank">Eco</a></li>
+                </ul>
+                <div class="buttons">
+                    <input type="button" value="Login" onclick="redirectToRegister()">
+                    <input type="button" value="Register" onclick="redirectToRegister()">
+                </div>
+            </nav>
+            <div class="text-content">
+                <h2>Embrace<br>The Power Of Learning</h2>
+                <p>Mom Power, A Gateway to all Advanced Computer and Mathematics Couses.</p>
+            </div>
+            <div class="play-button">
+                <span class="play">Play Video</span>
+                <i class="material-icons fa-play" onclick="click()">play_circle</i>
+            </div>
+        </div>
     </header>
     
-    <nav>
-        <a href="#introduction">Introduction</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#resources">Resources</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
     <main>
         <section id="introduction">
