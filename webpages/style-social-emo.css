@@ -181,6 +181,171 @@ header::after {
 
 /*-----------------------------------------------*/
 
+/*Starting of Style Contact*/
+.cn-body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  position: relative;
+}
+.cn-body::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: none;
+  clip-path: polygon(86% 0, 100% 0, 100% 100%, 60% 100%);
+}
+.cn-container{
+  z-index: 12;
+  max-width: 1050px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.cn-container .cn-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+.cn-content .cn-image-box{
+  max-width: 50%;
+  width: 40%
+  justify-content: center;
+  margin: auto;
+}
+.cn-content .cn-image-box img{
+  width: 85%;
+  justify-content: center;
+  margin: auto;
+}
+.cn-content .cn-topic{
+  font-size: x-large;
+  font-weight: 500;
+  color: #ba24c2;
+}
+.cn-content form{
+  width: 40%;
+  margin-right: 30px;
+}
+.cn-content .cn-input-box{
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.cn-content .cn-input-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 16px;
+  background: #fae9fb;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.cn-content .cn-input-box input:focus,
+.cn-content .cn-input-box input:valid{
+  border-color: #ba24c2;
+  background-color: #fff;
+}
+.cn-content .cn-input-box label{
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #636c72;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.cn-content .cn-input-box input:focus ~ label,
+.cn-content .cn-input-box input:valid ~ label{
+  top: 0;
+  left: 12px;
+  display: 14px;
+  color: #ba24c2;
+  background: #fff;
+}
+.cn-content .cn-message-box{
+  min-height: 100px;
+  position: relative;
+  width: 100%;
+}
+.cn-content .cn-message-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  background: #fae9fb;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  transition all 0.3s ease;
+}
+.cn-content .cn-message-box input:focus{
+  border-color: #ba24c2;
+  background-color: #fff;
+}
+.cn-content .cn-message-box label{
+  position: absolute;
+  font-size: 16px;
+  color: #636c72;
+  left: 18px;
+  top: 6px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.cn-content .cn-message-box input:focus ~ label{
+  left: 12px;
+  top: -10px;
+  color: #ba24c2;
+  font-size: 14px;
+  background: #fff;
+}
+.cn-content .cn-input-box input[type="submit"]{
+  color: #fff;
+  background: #ba24c2;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.cn-content .cn-input-box input[type="submit"]:hover{
+  background-color: #d43ddb;
+}
+@media (max-width:1000px) {
+  .cn-content .cn-image-box{
+    max-width: 50%;
+  }
+  .cn-content{
+    padding: 10px 0;
+  }
+}
+@media (max-width:900px) {
+  .cn-content .cn-image-box{
+    display: block;
+  }
+  .cn-content form{
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+/*Ending of Style Contact*/
+
+/*-----------------------------------------------*/
+
+
 /*Starting of Style Top Nav Toggle*/
 #toTopButton {
     display: none;
