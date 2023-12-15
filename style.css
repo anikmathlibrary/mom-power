@@ -141,6 +141,8 @@ header img {
 .cn-content .cn-image-box{
   max-width: 50%;
   width: 40%
+  justify-content: center;
+  margin: auto;
 }
 .cn-content .cn-image-box img{
   width: 85%;
@@ -200,9 +202,11 @@ header img {
 .cn-content .cn-message-box{
   min-height: 100px;
   position: relative;
+  width: 100%;
 }
 .cn-content .cn-message-box input{
   position: absolute;
+  height: 100%;
   width: 100%;
   resize: none;
   background: #fae9fb;
