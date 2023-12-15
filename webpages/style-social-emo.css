@@ -182,8 +182,8 @@ header::after {
 /*-----------------------------------------------*/
 
 /*Starting of Style Content*/
-section {
-padding-left: 20px;
+.cont {
+padding-left: 5vw;
 }
 /*Ending of Style Content*/
 
