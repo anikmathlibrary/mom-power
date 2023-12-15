@@ -185,7 +185,7 @@ header::after {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #F6416C;
+    background-color: #000;
     color: #fff;
     padding: 5px;
     border: none;
