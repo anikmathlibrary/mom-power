@@ -98,7 +98,7 @@ header::after {
 }
 .navbar .buttons input {
     outline: none;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     border-radius: 12px;
@@ -349,6 +349,8 @@ header::after {
 /*Starting of Style Footer*/
 footer {
     background: none;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 footer div {
     text-align: center;
