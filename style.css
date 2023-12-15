@@ -286,6 +286,8 @@ header img {
 /*Starting of Style Footer*/
 footer {
     background: none;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 footer div {
     text-align: center;
