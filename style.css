@@ -111,13 +111,12 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fae9fb;
+  background: none;
   position: relative;
 }
 .cn-body::before{
   content: '';
   position: absolute;
-  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -140,13 +139,13 @@ header img {
   padding: 25px 20px;
 }
 .cn-content .cn-image-box{
-  max-width: 55%;
+  max-width: 40%;
 }
 .cn-content .cn-image-box img{
-  width: 100%;
+  width: 30%;
 }
 .cn-content .cn-topic{
-  font-size: 22px;
+  font-size: large;
   font-weight: 500;
   color: #ba24c2;
 }
@@ -163,7 +162,7 @@ header img {
 .cn-content .cn-input-box input{
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 50%;
   border-radius: 6px;
   font-size: 16px;
   outline: none;
@@ -245,7 +244,7 @@ header img {
 }
 @media (max-width:1000px) {
   .cn-content .cn-image-box{
-    max-width: 70%;
+    max-width: 50%;
   }
   .cn-content{
     padding: 10px 0;
