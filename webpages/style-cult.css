@@ -179,6 +179,15 @@ header::after {
 /*Ending of Style Header*/
 
 /*-----------------------------------------------*/
+
+/*Starting of Style Content*/
+section {
+padding-left: 10px;
+}
+/*Ending of Style Content*/
+
+/*-----------------------------------------------*/
+
 /*Starting of Style Top Nav Toggle*/
 #toTopButton {
     display: none;
