@@ -1,6 +1,6 @@
 //Starting of Action Top Buttons
 function redirectToContact() {
-    window.location.href='../index.html.cn-body';
+    window.location.href='../index.html#index-contact';
 }
 //Endting of Action Top Buttons
 
