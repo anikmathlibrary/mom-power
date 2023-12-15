@@ -139,10 +139,10 @@ header img {
   padding: 25px 20px;
 }
 .cn-content .cn-image-box{
-  max-width: 40%;
+  max-width: 30%;
 }
 .cn-content .cn-image-box img{
-  width: 30%;
+  width: 100%;
 }
 .cn-content .cn-topic{
   font-size: large;
@@ -150,7 +150,7 @@ header img {
   color: #ba24c2;
 }
 .cn-content form{
-  width: 40%;
+  width: 35%;
   margin-right: 30px;
 }
 .cn-content .cn-input-box{
@@ -200,7 +200,6 @@ header img {
 }
 .cn-content .cn-message-box textarea{
   position: absolute;
-  height: 100%;
   width: 100%;
   resize: none;
   background: #fae9fb;
@@ -244,7 +243,7 @@ header img {
 }
 @media (max-width:1000px) {
   .cn-content .cn-image-box{
-    max-width: 50%;
+    max-width: 40%;
   }
   .cn-content{
     padding: 10px 0;
@@ -255,7 +254,7 @@ header img {
     display: none;
   }
   .cn-content form{
-    width: 100%;
+    width: 40%;
     margin-left: 30px;
   }
 }
