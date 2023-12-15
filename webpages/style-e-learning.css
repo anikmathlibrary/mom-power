@@ -297,6 +297,7 @@ header::after {
     position: absolute;
     top: -1vw;
     left: 1vw;
+    color: black;
 }
 .price-area .inner-area .price {
     font-size: normal;
