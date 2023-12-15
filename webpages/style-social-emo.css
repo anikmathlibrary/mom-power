@@ -181,6 +181,12 @@ header::after {
 
 /*-----------------------------------------------*/
 
+/*Starting of Style Content*/
+section {
+padding-left: 10px;
+}
+/*Ending of Style Content*/
+
 /*Starting of Style Contact*/
 .cn-body{
   width: 100%;
