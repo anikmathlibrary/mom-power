@@ -1,3 +1,9 @@
+//Starting of Action Top Buttons
+function redirectToContact() {
+    window.location.href='../index.html#index-contact';
+}
+//Endting of Action Top Buttons
+
 //Starting of Action Top Toggle
 window.onscroll = function() {
     toggleToTopButton();
