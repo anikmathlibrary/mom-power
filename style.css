@@ -120,7 +120,7 @@ header img {
   width: 100%;
   left: 0;
   top: 0;
-  background: #ba24c2;
+  background: none;
   clip-path: polygon(86% 0, 100% 0, 100% 100%, 60% 100%);
 }
 .cn-container{
@@ -142,15 +142,15 @@ header img {
   max-width: 30%;
 }
 .cn-content .cn-image-box img{
-  width: 100%;
+  width: 50%;
 }
 .cn-content .cn-topic{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #ba24c2;
 }
 .cn-content form{
-  width: 35%;
+  width: 40%;
   margin-right: 30px;
 }
 .cn-content .cn-input-box{
@@ -198,7 +198,7 @@ header img {
   min-height: 100px;
   position: relative;
 }
-.cn-content .cn-message-box textarea{
+.cn-content .cn-message-box input{
   position: absolute;
   width: 100%;
   resize: none;
@@ -208,7 +208,7 @@ header img {
   outline: none;
   transition all 0.3s ease;
 }
-.cn-content .cn-message-box textarea:focus{
+.cn-content .cn-message-box input:focus{
   border-color: #ba24c2;
   background-color: #fff;
 }
@@ -221,7 +221,7 @@ header img {
   pointer-events: none;
   transition: all 0.3s ease;
 }
-.cn-content .cn-message-box textarea:focus ~ label{
+.cn-content .cn-message-box input:focus ~ label{
   left: 12px;
   top: -10px;
   color: #ba24c2;
@@ -243,7 +243,7 @@ header img {
 }
 @media (max-width:1000px) {
   .cn-content .cn-image-box{
-    max-width: 40%;
+    max-width: 50%;
   }
   .cn-content{
     padding: 10px 0;
